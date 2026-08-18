@@ -1,9 +1,10 @@
 {
   "name": "dsh-jump-to-top",
   "version": "0.1.0",
-  "description": "Add a floating jump-to-top button to the dsh web chat scroll area.",
+  "description": "A tiny DeepSeek Harness web plugin: floating back-to-top button next to the official toBottom button in the chat view.",
   "type": "module",
   "main": "./lib/index.js",
+  "types": "./lib/types/index.d.ts",
   "exports": {
     ".": {
       "types": "./lib/types/index.d.ts",
@@ -19,7 +20,19 @@
   "files": [
     "lib",
     "cordis.patch.yml",
-    "README.md"
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "chat",
+    "scroll",
+    "back-to-top",
+    "ui"
   ],
   "dsh": {
     "bundle": {
@@ -33,5 +46,18 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "author": "rjm1130",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjm1130/dsh-jump-to-top.git"
+  },
+  "homepage": "https://github.com/rjm1130/dsh-jump-to-top#readme",
+  "bugs": {
+    "url": "https://github.com/rjm1130/dsh-jump-to-top/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
