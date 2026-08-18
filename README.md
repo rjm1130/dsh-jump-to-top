@@ -1,6 +1,5 @@
 # dsh-jump-to-top
 
-[![CI](https://github.com/rjm1130/dsh-jump-to-top/actions/workflows/ci.yml/badge.svg)](https://github.com/rjm1130/dsh-jump-to-top/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/dsh-jump-to-top)](https://www.npmjs.com/package/dsh-jump-to-top)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -24,7 +23,7 @@ A tiny DeepSeek Harness web plugin: adds a floating **back-to-top** button to th
 ## 安装 / Install
 
 ```sh
-# 从 npm 安装(需要先发布;未发布前可用下面两种方式)
+# 从 npm 安装(推荐)
 dsh plugin --profile web add dsh-jump-to-top
 
 # 或直接从 GitHub 安装
@@ -62,7 +61,7 @@ git clone https://github.com/rjm1130/dsh-jump-to-top.git
 dsh plugin --profile web add <克隆路径>
 ```
 
-提交前请确保 `npm pack --dry-run` 与 `node --check` 通过(CI 也会校验)。
+提交前请确保 `npm pack --dry-run` 与 `node --check` 通过。
 
 ## License
 
