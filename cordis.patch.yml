@@ -1,0 +1,6 @@
+# dsh-jump-to-top: host layer registers the bundle; the client half injects
+# the floating scroll-to-top button into the web chat view.
+- insert:
+    - id: dsh-jump-to-top
+      name: dsh-jump-to-top
+      config: {}
