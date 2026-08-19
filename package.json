@@ -1,6 +1,6 @@
-﻿{
+{
   "name": "dsh-jump-to-top",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A tiny DeepSeek Harness web plugin: floating back-to-top button next to the official toBottom button in the chat view.",
   "type": "module",
   "main": "./lib/index.js",
@@ -61,4 +61,6 @@
     "registry": "https://registry.npmjs.org/"
   }
 }
+
+
 
